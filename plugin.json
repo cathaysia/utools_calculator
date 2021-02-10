@@ -1,0 +1,20 @@
+{
+    "pluginName":"计算器",
+    "description":"计算器插件，允许代入公式",
+    "version":"0.0.1",
+    "preload": "preload.js",
+    "logo":"icon.png",
+    "features":[
+        {
+            "code":"jsq",
+            "explain":"执行计算任务",
+            "cmds":[
+                {
+                    "type":"regex",
+                    "label":"计算器",
+                    "match":"/^[A-z0-9+\\-*/|&^~<>]+/"
+                }
+            ]
+        }
+    ]
+}
