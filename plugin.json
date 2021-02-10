@@ -2,6 +2,8 @@
     "pluginName":"计算器",
     "description":"计算器插件，允许代入公式",
     "version":"0.0.1",
+    "author": "cathaysia",
+    "homepage": "https://github.com/cathaysia/utools_firefox_history_bookmarks",
     "preload": "preload.js",
     "logo":"icon.png",
     "features":[
